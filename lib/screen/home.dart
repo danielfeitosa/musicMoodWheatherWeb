@@ -1,6 +1,5 @@
 import 'dart:html';
 
-import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:moodwheatherweb/custom_icon_button.dart';
 import 'package:moodwheatherweb/custom_text_field.dart';
@@ -110,7 +109,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                     ),
                                   ),
                                   trailing: Text(
-                                    '${trackerWheather.temperature} Celsius',
+                                    '${trackerWheather.temperature} ºC',
                                     style: TextStyle(
                                       fontSize: 16,
                                       color: Theme.of(context).primaryColor,
