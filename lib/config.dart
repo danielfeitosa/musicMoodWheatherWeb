@@ -1,3 +1,3 @@
 class Config {
-  static const SERVER = "http://muscimoodwheatherbackend:8080";
+  static const SERVER = "http://localhost:8088";
 }
